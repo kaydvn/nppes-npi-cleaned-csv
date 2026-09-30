@@ -28,7 +28,12 @@ python3 -m unittest test_nppes_clean.py
 ## Pre-built files
 
 If you'd rather not download 1 GB and run the script each month, the pre-built files for the current release
-(full CSV plus the 62 per-state files, with SHA256 checksums) are sold as a paid download. The store link will be added here once it's live.
+(full CSV plus the 62 per-state files, with SHA256 checksums) are sold as a one-time download on Polar:
+
+- **Full dataset, $49 one-time** (September 2026 release, 9.44M active providers): https://buy.polar.sh/polar_cl_koAgOn32fQUYJqs15BlZeg9XMbIna4pEqBHrS23FTGq
+- **Free sample** (1,000 Delaware NPIs, same format): https://buy.polar.sh/polar_cl_bQUhcKhDn2QoZOyNWJCAqL25QSfp1JAzB1mR227uCye
+
+The store is being verified, so checkout may not open for a few days. If a link doesn't work yet, the free sample is also in this repo.
 
 ## Cleaning steps
 
