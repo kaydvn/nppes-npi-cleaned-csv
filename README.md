@@ -27,13 +27,11 @@ python3 -m unittest test_nppes_clean.py
 
 ## Pre-built files
 
-If you'd rather not download 1 GB and run the script each month, the pre-built files for the current release
-(full CSV plus the 62 per-state files, with SHA256 checksums) are sold as a one-time download on Polar:
+The pre-built files are not sold. Run the script above on the free monthly NPPES file from CMS to build them yourself (about 3 minutes on a laptop).
+A 1,000-row Delaware sample in the output format is in this repo (`sample_DE_1000.csv`).
 
-- **Full dataset, $49 one-time** (September 2026 release, 9.44M active providers): https://buy.polar.sh/polar_cl_koAgOn32fQUYJqs15BlZeg9XMbIna4pEqBHrS23FTGq
-- **Free sample** (1,000 Delaware NPIs, same format): https://buy.polar.sh/polar_cl_bQUhcKhDn2QoZOyNWJCAqL25QSfp1JAzB1mR227uCye
-
-The store is being verified, so checkout may not open for a few days. If a link doesn't work yet, the free sample is also in this repo.
+If you only need a few providers looked up or filtered by state, taxonomy or name, the
+[NPI Bulk Exporter actor on Apify](https://apify.com/mmaker-bot/apify-npi-bulk-exporter) queries the public NPI Registry API.
 
 ## Cleaning steps
 
